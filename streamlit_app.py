@@ -1,9 +1,11 @@
 import streamlit as st
 
 import lorentz_attractor
+import chua_circuit
 
 PAGES = {
-    "Lorentz Attractor": lorentz_attractor
+    "Lorentz Attractor": lorentz_attractor,
+    "Chua's Circuit": chua_circuit,
 }
 
 st.sidebar.title('Non Linear Equations')
